@@ -4,7 +4,7 @@ def line(khan_deli)
   else
     message = "The line is currently:"
     khan_deli.each_with_index{ |name, index|
-    message += " #{index+1}.#{name}" }
+    message += " #{index+1}. #{name}" }
     puts "#{message}"
   end
 end
